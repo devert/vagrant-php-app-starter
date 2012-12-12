@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1344,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "JRWatkins",
 	"command_palette":
@@ -760,6 +768,9 @@
 	},
 	"file_history":
 	[
+		"/C/_Projects/Dennis Evert/vagrant-php-app-starter/README.md",
+		"/C/Users/devert/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/_Projects/Dennis Evert/vagrant-php-app-starter/vagrant/Vagrantfile",
 		"/C/_Projects/Dennis Evert/vagrant-php",
 		"/C/_Projects/Dennis Evert/vagrant-ruby-app-starter/README.md",
 		"/C/_Projects/Dennis Evert/vagrant-ruby-app-starter/vagrant/Vagrantfile",
@@ -884,10 +895,7 @@
 		"/C/Users/devert/AppData/Roaming/Sublime Text 2/Packages/MSBuild/MSBuild.sublime-build",
 		"/C/_Projects/JR Watkins/12096_Website_Redesign/build.xml",
 		"/C/_Projects/JR Watkins/12096_Website_Redesign/src/JRWatkins.Site/assets/jrwatkins/css/print.css",
-		"/C/_Projects/JR Watkins/12096_Website_Redesign/src/JRWatkins.Site/assets/jrwatkins/js/jrw/ui/modal/Modal.js",
-		"/C/_Projects/JR Watkins/12096_Website_Redesign/src/JRWatkins.Site/assets/jrwatkins/css/product.css",
-		"/C/_Projects/JR Watkins/12096_Website_Redesign/src/JRWatkins.Site/assets/jrwatkins/css/common.css",
-		"/C/_Projects/JR Watkins/12096_Website_Redesign/src/JRWatkins.Site/assets/jrwatkins/js/jrw/ui/modal/FormModal.js"
+		"/C/_Projects/JR Watkins/12096_Website_Redesign/src/JRWatkins.Site/assets/jrwatkins/js/jrw/ui/modal/Modal.js"
 	],
 	"find":
 	{
@@ -1207,8 +1215,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								696,
+								696
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
