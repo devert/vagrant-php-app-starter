@@ -1,6 +1,6 @@
 # Vagrant PHP App Starter
 
-### Intro
+## Intro
 
 ***WORK IN PROGRESS.*** *Currently not functional.*
 
@@ -17,7 +17,7 @@ Cookbooks included:
 * [xml](https://github.com/opscode-cookbooks/xml)
 * [vim](https://github.com/opscode-cookbooks/vim)
 
-### Requirements
+## Requirements
 
 * [VirtualBox](https://www.virtualbox.org/)
 * [Ruby](http://www.ruby-lang.org/en/)
@@ -28,7 +28,7 @@ Cookbooks included:
 
 * Keep Vagrant VM's VirtualBox Guest Additions up to date with [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) plugin.
 
-### Usage
+## Usage
 
 Clone it into your project folder, install cookbook dependencies with Librarian-Chef, launch/create Vagrant VM...
 
