@@ -2,9 +2,18 @@
 
 ## Intro
 
-***WORK IN PROGRESS.*** *Currently not functional.*
+***WORK IN PROGRESS.*** *Currently not fully functional.*
 
 A LAMP stack project starter, utilizing a Vagrant VM (default: Ubuntu Precise Pangolin 32-bit) provisioned with Chef Solo.
+
+If you use this repository, you will end up with a Linux server that has the following packages:
+
+* Apache
+* MySQL
+* PHP
+
+The version number will depend on the current one available in the Ubuntu repositories.
+
 
 Cookbooks included:
 
@@ -14,8 +23,8 @@ Cookbooks included:
 * [mysql](https://github.com/opscode-cookbooks/mysql)
 * [openssl](https://github.com/opscode-cookbooks/openssl)
 * [php](https://github.com/opscode-cookbooks/php)
-* [xml](https://github.com/opscode-cookbooks/xml)
 * [vim](https://github.com/opscode-cookbooks/vim)
+* [xml](https://github.com/opscode-cookbooks/xml)
 
 ## Requirements
 
