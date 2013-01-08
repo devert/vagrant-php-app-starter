@@ -47,6 +47,8 @@ Open the vagrant/Vagrantfile and modify *proj-name* instances to the name of you
     $ vagrant ssh
     $ cd proj-name
 
+After running the above commands you should be able to browse to http://locahost:8080/ and see "Hello World!". Changes to files via the host machine will immediately be updated on the guest VM as well. Now get in there and build something awesometronic with PHP!
+
 ## Optional (But Pretty Great)
 
 #### Vagrant
