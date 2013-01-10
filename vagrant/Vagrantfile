@@ -46,7 +46,7 @@ Vagrant::Config.run do |config|
   # Share an additional folder to the guest VM. The first argument is
   # an identifier, the second is the path on the guest to mount the
   # folder, and the third is the path on the host to the actual folder.
-  config.vm.share_folder "proj-name", "/var/www", "../src", :nfs => !IS_WINDOWS
+  config.vm.share_folder "proj-name", "/home/vagrant/proj-name", "../src", :nfs => !IS_WINDOWS
   
   # Allows symlinks to be created in the shared folder.
   config.vm.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/proj-name", "1"]
@@ -56,7 +56,7 @@ Vagrant::Config.run do |config|
 
   # Requires vagrant-vbguest plugin
   #
-  # set auto_update to false, if you do NOT want to check the correct  
+  #va set auto_update to false, if you do NOT want to check the correct  
   # VirtualBox guest additions version when booting this machine
   # config.vbguest.auto_update = false
 
@@ -65,11 +65,12 @@ Vagrant::Config.run do |config|
   # some recipes and/or roles.
   #
   config.vm.provision :chef_solo do |chef|
-    chef.cookbooks_path = ["cookbooks"]
+    chef.cookbooks_path = ["cookbooks", "proj-cookbooks"]
     chef.add_recipe "apt"
     chef.add_recipe "apache2"
     chef.add_recipe "apache2::mod_php5"
     # chef.add_recipe "apache2::mod_rewrite"
+    chef.add_recipe "main"
     # chef.add_recipe "mysql"
     # chef.add_recipe "mysql::server"
     chef.add_recipe "php"
