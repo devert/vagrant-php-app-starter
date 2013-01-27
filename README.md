@@ -9,8 +9,9 @@ A LAMP stack project starter, utilizing a Vagrant VM (default: Ubuntu 12.04 Prec
 If you use this repository, you will end up with a Linux server that has the following packages:
 
 * Apache
-* MySQL
-* PHP
+* MySQL - *Not installed by default. Uncomment in Vagrantfile if desired.*
+* PHP 
+* [Composer](http://getcomposer.org/) - *For PHP package management.*
 
 The version number of the above will depend on the current one available in the Ubuntu repositories.
 
@@ -19,6 +20,7 @@ Cookbooks included:
 * [apache](https://github.com/opscode-cookbooks/apache2)
 * [apt](https://github.com/opscode-cookbooks/apt)
 * [build-essential](https://github.com/opscode-cookbooks/build-essential)
+* [composer](https://github.com/escapestudios/chef-composer)
 * [mysql](https://github.com/opscode-cookbooks/mysql)
 * [openssl](https://github.com/opscode-cookbooks/openssl)
 * [php](https://github.com/opscode-cookbooks/php)
