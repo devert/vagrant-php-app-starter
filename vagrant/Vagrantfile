@@ -25,7 +25,7 @@ Vagrant::Config.run do |config|
   # Requires vagrant-hostmaster
   # 
   # Manage custom /etc/hosts entries on both the host OS and guest VMs
-  config.hosts.name = "proj-name.local"
+  # config.hosts.name = "proj-name.local"
 
   # Assign this VM to a host-only network IP, allowing you to access it
   # via the IP. Host-only networks can talk to the host machine as well as
@@ -58,7 +58,7 @@ Vagrant::Config.run do |config|
   #
   #va set auto_update to false, if you do NOT want to check the correct  
   # VirtualBox guest additions version when booting this machine
-  config.vbguest.auto_update = false
+  # config.vbguest.auto_update = false
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
   # path, and data_bags path (all relative to this Vagrantfile), and adding 
